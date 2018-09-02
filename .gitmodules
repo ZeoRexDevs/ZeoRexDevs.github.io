@@ -1,3 +1,4 @@
 [submodule "themes/hueman"]
 	path = themes/hueman
 	url = https://github.com/ZeoRexDevs/hexo-theme-hueman
+	branch = master
