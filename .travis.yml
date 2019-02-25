@@ -16,7 +16,7 @@ cache:
     - node_modules
 before_install:
   - npm install -g hexo highlight.js@9.14.2
-  - git submodules update --init
+  - git submodule update --init --recursive
 install:
   - npm install
 before_script:
