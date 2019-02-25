@@ -125,5 +125,5 @@ deploy:
   name: rokibhasansagar
   email: rokibhasansagar2014@outlook.com
   repo:
-    github: https://__GitOAuthToken@github.com/ZeoRexDevs/ZeoRexDevs.github.io.git
+    github: https://__GitOAuthToken__@github.com/ZeoRexDevs/ZeoRexDevs.github.io.git
   branch: master
