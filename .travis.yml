@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - "10"
+  - "node"
 os: linux
 dist: xenial
 sudo: required
@@ -9,12 +9,14 @@ branches:
     - source
 git:
   depth: 3
+  submodules: false
 cache:
   apt: true
   directories:
     - node_modules
 before_install:
   - npm install -g hexo highlight.js@9.14.2
+  - git submodules update --init --recursive
 install:
   - npm install
 before_script:
