@@ -4,7 +4,7 @@ node_js:
 os: linux
 dist: xenial
 sudo: required
-branches
+branches:
   only:
     - source
 cache:
