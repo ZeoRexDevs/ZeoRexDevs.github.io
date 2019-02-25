@@ -1,0 +1,25 @@
+language: node_js
+node_js:
+  - "node"
+os: linux
+dist: xenial
+sudo: required
+branches
+  only:
+    - source
+cache:
+  apt: true
+  directories:
+    - node_modules
+before_install:
+  - npm install -g hexo-cli
+install:
+  - npm install
+before_script:
+  - git config --global user.name rokibhasansagar
+  - git config --global user.email rokibhasansagar2014@outlook.com
+  - sed -i "s/__GitOAuthToken__/${GitOAUTHToken}/" _config.yml
+script:
+  - hexo clean && hexo generate
+after_success:
+  - hexo deploy --silent
