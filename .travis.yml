@@ -14,7 +14,7 @@ cache:
   directories:
     - node_modules
 before_install:
-  - npm install -g hexo-cli highlight.js@9.14.2
+  - npm install -g hexo highlight.js@9.14.2
 install:
   - npm install
 before_script:
