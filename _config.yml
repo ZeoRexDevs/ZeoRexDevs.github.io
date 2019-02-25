@@ -15,7 +15,7 @@ timezone: Asia/Dhaka
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://ZeoRexDevs.github.io
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :year/:month/:title/
 permalink_defaults:
 
 # Directory
@@ -71,6 +71,34 @@ per_page: 8
 pagination_dir: page
 
 # Extensions
+all_minifier: true
+html_minifier:
+  enable: true
+  ignore_error: false
+  silent: false
+  exclude:
+css_minifier:
+  enable: true
+  silent: false
+  exclude: 
+    - '*.min.css'
+js_minifier:
+  enable: true
+  mangle: true
+  silent: false
+  output:
+  compress:
+  exclude: 
+    - '*.min.js'
+image_minifier:
+  enable: true
+  interlaced: false
+  multipass: false
+  optimizationLevel: 2
+  pngquant: false
+  progressive: false
+  silent: false
+
 ## Plugins: https://hexo.io/plugins/
 sitemap:
   path: sitemap.xml
@@ -93,7 +121,7 @@ theme: hueman
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
+  message: "Site updated: {{ now('YYYY-MM-DD HH:mm') }}"
   name: rokibhasansagar
   email: rokibhasansagar2014@outlook.com
   repo:
