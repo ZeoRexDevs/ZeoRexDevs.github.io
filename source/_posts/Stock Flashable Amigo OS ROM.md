@@ -1,4 +1,3 @@
-layout: post
 title: Stock Flashable Amigo OS ROM
 date: 2017-07-28
 tags: [Amigo OS, Marshmallow]
@@ -8,7 +7,7 @@ categories:
 thumbnail: /thumbs/RX5_logo.jpg
 ---
 
-![Banner](/images/banner.jpg "Caption")
+![Banner](/images/banner.jpg)
 
 ### When Phone Manufacturers Releases their phones, the Default Operating System placed inside them is called Stock Rom or Firmware
 
