@@ -2110,9 +2110,9 @@ hexo-renderer-ejs@^0.3.0:
     ejs "^2.3.4"
     object-assign "^4.0.1"
 
-hexo-renderer-marked@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/hexo-renderer-marked/-/hexo-renderer-marked-1.0.0.tgz#157571d12724dde3d8d9b798ed608d2c666f4375"
+hexo-renderer-marked@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/hexo-renderer-marked/-/hexo-renderer-marked-1.0.1.tgz#7752e55afa789eb05e0d47c72e286a12c2c8e080"
   dependencies:
     hexo-util "^0.6.2"
     marked "^0.6.1"
