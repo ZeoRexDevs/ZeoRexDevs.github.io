@@ -1996,12 +1996,11 @@ hexo-generator-feed@^2.0.0:
   dependencies:
     nunjucks "^3.0.0"
 
-hexo-generator-index@^0.2.0:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/hexo-generator-index/-/hexo-generator-index-0.2.1.tgz#9042229fcac79aaf700575da19332bf3f7ee5c5d"
+hexo-generator-index@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/hexo-generator-index/-/hexo-generator-index-1.0.0.tgz#8c9f157dcfa0af4f8417f77a4eb5b3831f69a719"
   dependencies:
-    hexo-pagination "0.0.2"
-    object-assign "^4.0.1"
+    hexo-pagination "1.0.0"
 
 hexo-generator-json-content@^4.1.6:
   version "4.1.6"
