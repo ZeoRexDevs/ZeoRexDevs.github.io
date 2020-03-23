@@ -1779,9 +1779,9 @@ hexo-generator-index@^1.0.0:
   dependencies:
     hexo-pagination "1.0.0"
 
-hexo-generator-json-content@^4.2.2:
-  version "4.2.2"
-  resolved "https://registry.yarnpkg.com/hexo-generator-json-content/-/hexo-generator-json-content-4.2.2.tgz#5289e9c6793f47fe1b778794d7626ce36865bb07"
+hexo-generator-json-content@^4.2.3:
+  version "4.2.3"
+  resolved "https://registry.yarnpkg.com/hexo-generator-json-content/-/hexo-generator-json-content-4.2.3.tgz#1cabaf53319c4ca5be41a34a501f280e76cae60b"
   dependencies:
     hexo-util latest
     keyword-extractor latest
