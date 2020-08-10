@@ -1929,9 +1929,9 @@ hexo-util@latest:
     html-entities "^1.2.0"
     striptags "^2.1.1"
 
-hexo@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/hexo/-/hexo-5.0.0.tgz#e5eebb03456489c4f4f50d3640c4cd43f3f4d497"
+hexo@^5.0.2:
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/hexo/-/hexo-5.0.2.tgz#b7c593b26044ce2b7e0265a706218a7aba0b0070"
   dependencies:
     abbrev "^1.1.1"
     archy "^1.0.0"
