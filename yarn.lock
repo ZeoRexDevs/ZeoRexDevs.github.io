@@ -1955,9 +1955,9 @@ hexo-util@latest:
     html-entities "^1.2.0"
     striptags "^2.1.1"
 
-hexo@^5.1.1:
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/hexo/-/hexo-5.1.1.tgz#5cbd979acce5d3915919688d8d6a8c3de3e93fda"
+hexo@^5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/hexo/-/hexo-5.2.0.tgz#cf8b2e3df3ba29805a17d96145ad41b38432a8e5"
   dependencies:
     abbrev "^1.1.1"
     archy "^1.0.0"
