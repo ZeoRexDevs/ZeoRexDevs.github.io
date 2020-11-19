@@ -2,14 +2,15 @@ language: node_js
 node_js:
   - "node"
 os: linux
-dist: xenial
-sudo: required
+dist: focal
+group: edge
 branches:
   only:
     - source
 git:
   depth: 3
   submodules: false
+  quiet: true
 cache:
   apt: true
   directories:
