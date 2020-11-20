@@ -1670,13 +1670,13 @@ hexo-generator-json-content@^4.2.3:
     keyword-extractor latest
     moment latest
 
-hexo-generator-seo-friendly-sitemap@0.0.25:
-  version "0.0.25"
-  resolved "https://registry.yarnpkg.com/hexo-generator-seo-friendly-sitemap/-/hexo-generator-seo-friendly-sitemap-0.0.25.tgz#73a02197bc65a38738a0d3927128e2e48ceb29ce"
+hexo-generator-seo-friendly-sitemap@0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/hexo-generator-seo-friendly-sitemap/-/hexo-generator-seo-friendly-sitemap-0.2.0.tgz#1311c1414cd6839528215ee3fa34c283c8837ea8"
   dependencies:
     bluebird "3.5.4"
     ejs "2.6.1"
-    lodash "4.17.11"
+    lodash "4.17.12"
     moment "2.24.0"
     pretty-data "0.40.0"
     url-join "4.0.0"
@@ -2282,9 +2282,9 @@ load-json-file@^1.0.0:
     pinkie-promise "^2.0.0"
     strip-bom "^2.0.0"
 
-lodash@4.17.11:
-  version "4.17.11"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
+lodash@4.17.12:
+  version "4.17.12"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.12.tgz#a712c74fdc31f7ecb20fe44f157d802d208097ef"
 
 lodash@^3.0.0, lodash@^3.0.1:
   version "3.10.1"
