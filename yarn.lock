@@ -1670,9 +1670,9 @@ hexo-generator-json-content@^4.2.3:
     keyword-extractor latest
     moment latest
 
-hexo-generator-seo-friendly-sitemap@0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/hexo-generator-seo-friendly-sitemap/-/hexo-generator-seo-friendly-sitemap-0.2.0.tgz#1311c1414cd6839528215ee3fa34c283c8837ea8"
+hexo-generator-seo-friendly-sitemap@0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/hexo-generator-seo-friendly-sitemap/-/hexo-generator-seo-friendly-sitemap-0.2.1.tgz#996a0c10ced51575d0d1aad59f65aad233946e87"
   dependencies:
     bluebird "3.5.4"
     ejs "2.6.1"
