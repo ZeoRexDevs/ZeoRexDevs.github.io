@@ -1704,9 +1704,9 @@ hexo-i18n@^1.0.0:
   dependencies:
     sprintf-js "^1.0.3"
 
-hexo-lazyload-image@^1.0.10:
-  version "1.0.10"
-  resolved "https://registry.yarnpkg.com/hexo-lazyload-image/-/hexo-lazyload-image-1.0.10.tgz#08a67e724590371ef49b77c88eab51d5d367f32e"
+hexo-lazyload-image@^1.0.12:
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/hexo-lazyload-image/-/hexo-lazyload-image-1.0.12.tgz#b5df417c0c4507c3ad0476619ca6513178fea252"
   dependencies:
     uglify-js "^3.0.27"
 
